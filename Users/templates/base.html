@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Base</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap-5.3.2/css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+{% block content %}
+<div class="container">
+    <div class="row">
+         <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav text-white">
+        <li class="nav-item">
+          <a class="nav-link" href="Index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Aboutus.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Login.html">LOGIN</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Register.html">REGISTER</a>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+    </div>
+</div>
+<footer>
+    <p>This the end of this page.</p>
+</footer>
+{% endblock %}
+</body>
+</html>

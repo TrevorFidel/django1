@@ -1,0 +1,22 @@
+.para{
+    font-family: cursive;
+    color:royalblue;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.head{
+    font-family: Chilanka;
+    color: #20c997;
+    font-size: 25px;
+}
+.line{
+    font-family: cursive;
+    font-size: 20px;
+}
+.work{
+    background-color: #0dcaf0;
+    border-color: black;
+    text-align: center;
+    text-decoration-color: red;
+    padding: 20px;
+}
